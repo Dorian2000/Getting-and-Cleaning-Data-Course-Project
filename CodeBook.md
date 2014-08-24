@@ -15,7 +15,7 @@ A full description is available at the site where the data was obtained:[Human A
  - *train*: Combination of the sub.train, Xtrain and ytrain data
  - *activity.labels*: table contents of activity_labels.txt
  - *features*: table contents of features.txt
- - *features2*: Subset of the features data with only the measurements on mean and standard deviation for each measurement
+ - *features2*: Subset of the features data with only the measurements on mean and standard deviation
  - *data1*: (rbind) combination of the train and test data sets
  - *data2*: This variable is a subset of data1. It keeps the first three variables of data1 ie id, sub.id and act.id and extract its variables by the id of features2
  - *data3*: Combination of data2 and the activity.labels data
