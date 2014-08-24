@@ -18,25 +18,20 @@ You should create one R script called run_analysis.R that does the following.
 
 
 ## This is how the script works##
-### Part I- Merging of the training and the test sets to create one data set ###
 - Read the training and test data sets
 - Create id columns and assign one row for each id, for each data set
 - Merging the training sets, the test sets to have two separate sets 
 - Combine the two sets to have one data set named data1
-### Part II- Extracts only the measurements on the mean and standard deviation for each measurement ###
 - Read the features data
 - Subset the features data and extract only the measurements on mean and std
 - Keep the first three variables of the data1 set ie id, sub.id and act.id and extract the variables of data1 by the id of features2 (+3 to match the same number of columns as feature.id) to get data2
-### Part III- Use descriptive activity names to name the activities in the data set ###
 - Read the activity labels data
 - Merge the activity labels with data2 to get data3
-### Part IV- Appropriate labels for the data set with descriptive activity names ###
 - Remove the () from the features labels and replace the "-" with "."
 - Store the length of the feature.label vector in an object named lc
 - For loop through the columns of data3 (i+3 means the first three columns are skipped) and replace their names with the features labels
 - Store this new dataset into a "dataframe" object named data4
 - Create the first tiny data set in the working directory named data4.txt
-### Part V- Creates a second, independent tidy data set with the average of each variable for each activity and each subject ###
 - Return a subset of the data named data5 in which the variables named "id" or "act.label" are removed 
 - Compute the mean of each variable for each activity and each subject and return the results in a new dataframe named data6
 - Return a subset of the data named data 7 in which the variables named "subject" or "activity" are removed
