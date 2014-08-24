@@ -2,7 +2,7 @@ Code Book for Getting and Cleaning Data Course Project
 ========================================
 ## Data Overview ##
 The data used for this course project are collected from the accelerometers from the Samsung Galaxy S smartphones. The source of the original data is : [Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
-A full description is available at the site where the data was obtained:[Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). This code book describes the variables used in the run_analysis R script.
+A full description is available at the site where the data was obtained:[Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). This code book describes the variables used in the [run_analysis R script](https://github.com/Dorian2000/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R).
 
 ## Variables ##
  - *Xtest*: table contents of test/X_test.txt
